@@ -22,6 +22,7 @@ return new class extends Migration
             $table->integer('denda');
             $table->string('status');
             $table->date('tanggal_kembali');
+            $table->timestamps();
         });
     }
 

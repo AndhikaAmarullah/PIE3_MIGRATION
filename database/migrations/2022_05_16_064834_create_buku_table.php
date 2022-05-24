@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('pencipta');
             $table->integer('years');
+            $table->timestamps();
         });
     }
 

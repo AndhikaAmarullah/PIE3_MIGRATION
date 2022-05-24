@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('agama');
             $table->integer('no_telpon');
             $table->string('gender');
-            $table->mediumText('foto');
+            $table->timestamps();
         });
     }
 

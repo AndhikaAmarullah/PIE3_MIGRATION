@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreignId('id_admin')->constrained('admin')->onDelete('cascade')->onUpdate('cascade');
             $table->date('tgl_pinjam');
             $table->integer('jmlh_buku');
+            $table->timestamps();
         });
     }
 
